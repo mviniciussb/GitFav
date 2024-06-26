@@ -26,6 +26,15 @@
     font-size: 1.6rem;
 }
 
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px var(--even-row) inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--principal-text-color) !important;
+}
 
 
 /* Custom scrollbar */
